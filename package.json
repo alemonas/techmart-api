@@ -1,0 +1,8 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "TechMart API",
+  "main": "index.js",
+  "author": "Alejandro Monasterios",
+  "license": "MIT"
+}
