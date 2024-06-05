@@ -4,5 +4,17 @@
   "description": "TechMart API",
   "main": "index.js",
   "author": "Alejandro Monasterios",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "prisma": "^5.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
 }
