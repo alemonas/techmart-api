@@ -7,3 +7,5 @@ router.get('/product/:id', () => {});
 router.put('/product/:id', () => {});
 router.post('/product', () => {});
 router.delete('/product/:id', () => {});
+
+export default router;
