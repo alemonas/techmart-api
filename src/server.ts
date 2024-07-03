@@ -1,12 +1,12 @@
 import express from 'express';
-import path from 'path';
 
 const app = express();
 
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-  return res.json({message: 'Hello from the API!'})
+  res.status(200);
+  res.json({message: 'Hello from API'})
 });
 
 export default app;
