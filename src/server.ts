@@ -6,7 +6,7 @@ app.use(express.static('static'));
 
 app.get('/', (req, res) => {
   res.status(200);
-  res.json({message: 'Hello from API'})
+  res.json({ message: 'Hello from API' });
 });
 
 export default app;

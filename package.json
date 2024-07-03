@@ -6,7 +6,8 @@
   "author": "Alejandro Monasterios",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@prisma/client": "^5.16.1",
@@ -17,6 +18,7 @@
     "@types/node": "^20.14.2",
     "prisma": "^5.15.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "prettier": "^3.3.2"
   }
 }
