@@ -1,6 +1,6 @@
 # TechMart API
 
-TechMart API is a Node.js/TypeScript backend application that provides APIs for managing a tech marketplace.
+TechMart API is a Node.js/TypeScript backend application that provides APIs for a inventory management application.
 
 ## Table of Contents
 
